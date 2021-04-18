@@ -1,0 +1,131 @@
+.bg-signup {
+    background-color: rgb(31, 184, 245) !important;
+    transition: 0.3s;
+}
+
+.bg-signup:hover {
+    background-color: rgb(4, 127, 243) !important;
+}
+
+.desc {
+    max-width: 400px;
+    text-align: justify;
+}
+
+.tebel {
+    font-weight: 900;
+    color: #2f6e70;
+}
+
+.sedikit-tebel {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #FFDE59;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(202, 165, 0);
+    color: black;
+}
+
+.gambar {
+    display: none;
+}
+
+.img {
+    width: 700px;
+    z-index: -1;
+    margin-top: -50px;
+}
+
+.link {
+    color: gray !important;
+    margin-right: 20px;
+
+}
+
+.link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #FFDE59;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.social {
+    padding-top: 30px;
+}
+
+.social a {
+    margin: 6px 12px;
+
+}
+
+.social i {
+    color: rgb(31, 184, 245);
+    font-size: 25px;
+}
+
+.social a:hover i {
+    color: rgb(4, 127, 243);
+    transition: all ease 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        display: none;
+        width: 500px;
+    }
+
+    .gambar {
+        display: block;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        display: none;
+        width: 500px;
+    }
+
+    .gambar {
+        display: block;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .img {
+        width: 500px;
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .img {
+        width: 300px;
+        z-index: -1;
+    }
+
+}
